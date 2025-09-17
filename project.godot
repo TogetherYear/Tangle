@@ -25,11 +25,12 @@ ImGuiRoot="*res://addons/imgui-godot/data/ImGuiRoot.tscn"
 PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
 Cursor="*res://addons/awesome_custom_cursor/Autoloads/Cursor.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
-GameManager="*res://Managers/GameManager/GameManager.tscn"
-ResourceManager="*res://Managers/ResourceManager/ResourceManager.tscn"
-UtilsManager="*res://Managers/UtilsManager/UtilsManager.tscn"
-SoundManager="*res://Managers/SoundManager/SoundManager.tscn"
 GUIDE="*res://addons/guide/guide.gd"
+UtilsManager="*res://Managers/UtilsManager/UtilsManager.tscn"
+ResourceManager="*res://Managers/ResourceManager/ResourceManager.tscn"
+GameManager="*res://Managers/GameManager/GameManager.tscn"
+InputManager="*res://Managers/InputManager/InputManager.tscn"
+SoundManager="*res://Managers/SoundManager/SoundManager.tscn"
 
 [dialogic]
 

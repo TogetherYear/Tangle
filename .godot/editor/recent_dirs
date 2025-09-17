@@ -1,3 +1,4 @@
+res://Managers/InputManager
 res://addons/imgui-godot
 res://Managers/SoundManager
 res://Managers/UtilsManager
