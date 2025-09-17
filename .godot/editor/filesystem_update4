@@ -1,0 +1,9 @@
+res://Scenes/Game/Game.gd
+res://Scenes/Game/Game.tscn
+res://Dialogic/Styles/Speaker.tres
+res://Dialogic/Styles/Bubble.tres
+res://addons/phantom_camera/themes/theme.tres
+res://Dialogic/Characters/PlayerSpeaker.dch
+res://Dialogic/Characters/PlayerBubble.dch
+res://Dialogic/Timelines/PlayerSpeakerTimeline.dtl
+res://Dialogic/Timelines/PlayerBubbleTimeline.dtl

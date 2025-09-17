@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.godot": true,
+        "**/*.uid":true,
+        "**/*.tres":true,
+        "**/*.tmp":true,
+        "**/*.tscn":true,
+        "**/*.import":true,
+        "**/*.cfg":true,
+        "**/*.atlastex":true,
+        "**/*.depren":true,
+        "**/*.material":true,
+        "**/*.png":true,
+        "**/*.svg":true,
+        "**/*.editorconfig":true,
+    },
+    "workbench.editor.closeOnFileDelete": true,
+    "[gdscript]": {
+        "editor.formatOnSave": true
+    },
+    "git.ignoreLimitWarning": true
+}
