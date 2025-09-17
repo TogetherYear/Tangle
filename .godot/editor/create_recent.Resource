@@ -1,2 +1,0 @@
-ImGuiConfig
-AtlasTexture
