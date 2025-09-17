@@ -29,6 +29,7 @@ GameManager="*res://Managers/GameManager/GameManager.tscn"
 ResourceManager="*res://Managers/ResourceManager/ResourceManager.tscn"
 UtilsManager="*res://Managers/UtilsManager/UtilsManager.tscn"
 SoundManager="*res://Managers/SoundManager/SoundManager.tscn"
+GUIDE="*res://addons/guide/guide.gd"
 
 [dialogic]
 
@@ -62,7 +63,7 @@ naming/script_name_casing=1
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/awesome_custom_cursor/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/godot_state_charts/plugin.cfg", "res://addons/imgui-godot/plugin.cfg", "res://addons/phantom_camera/plugin.cfg")
+enabled=PackedStringArray("res://addons/awesome_custom_cursor/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/godot_state_charts/plugin.cfg", "res://addons/guide/plugin.cfg", "res://addons/imgui-godot/plugin.cfg", "res://addons/phantom_camera/plugin.cfg")
 
 [gui]
 
