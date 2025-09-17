@@ -8,12 +8,16 @@
 
 config_version=5
 
+[addons]
+
+imgui/config="uid://coqe1jjc4aely"
+
 [application]
 
 config/name="Tangle"
 run/main_scene="uid://k8sga58ocnwa"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://bvnfp1rag4wk2"
 
 [autoload]
 
@@ -21,6 +25,10 @@ ImGuiRoot="*res://addons/imgui-godot/data/ImGuiRoot.tscn"
 PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
 Cursor="*res://addons/awesome_custom_cursor/Autoloads/Cursor.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+GameManager="*res://Managers/GameManager/GameManager.tscn"
+ResourceManager="*res://Managers/ResourceManager/ResourceManager.tscn"
+UtilsManager="*res://Managers/UtilsManager/UtilsManager.tscn"
+SoundManager="*res://Managers/SoundManager/SoundManager.tscn"
 
 [dialogic]
 
@@ -67,6 +75,10 @@ dialogic_default_action={
 "events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":true,"double_click":false,"script":null)
 ]
 }
+
+[physics]
+
+common/physics_interpolation=true
 
 [rendering]
 

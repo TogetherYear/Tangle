@@ -7,3 +7,12 @@ res://Dialogic/Characters/PlayerSpeaker.dch
 res://Dialogic/Characters/PlayerBubble.dch
 res://Dialogic/Timelines/PlayerSpeakerTimeline.dtl
 res://Dialogic/Timelines/PlayerBubbleTimeline.dtl
+res://Managers/GameManager/GameManager.tscn
+res://Managers/GameManager/GameManager.gd
+res://Managers/ResourceManager/ResourceManager.tscn
+res://Managers/ResourceManager/ResourceManager.gd
+res://Managers/UtilsManager/UtilsManager.tscn
+res://Managers/UtilsManager/UtilsManager.gd
+res://Managers/SoundManager/SoundManager.tscn
+res://Managers/SoundManager/SoundManager.gd
+res://addons/imgui-godot/Custom.tres

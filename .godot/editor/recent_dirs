@@ -1,3 +1,9 @@
+res://addons/imgui-godot
+res://Managers/SoundManager
+res://Managers/UtilsManager
+res://Managers/ResourceManager
+res://Managers/GameManager
+res://
 res://Dialogic
 res://Dialogic/Timelines
 res://Assets/Fonts
