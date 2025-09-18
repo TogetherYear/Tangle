@@ -10,7 +10,7 @@
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_liigb"]
 texture = ExtResource("2_hywg0")
 texture_margin_left = 3.0
-texture_margin_top = 4.0
+texture_margin_top = 3.0
 texture_margin_right = 3.0
 texture_margin_bottom = 3.0
 

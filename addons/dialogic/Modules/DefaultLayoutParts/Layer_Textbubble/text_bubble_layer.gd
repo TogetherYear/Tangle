@@ -145,11 +145,10 @@ func bubble_apply_overrides(bubble: TextBubble) -> void:
 
     nlp.get_parent().visible = name_label_enabled
     
-    print(choices_layout_force_lines)
     ## CHOICE SETTINGS
     if choices_layout_force_lines:
         var c = VBoxContainer.new()
-        c.add_theme_constant_override("separation", 2)
+        c.add_theme_constant_override("separation", 3)
         bubble.add_choice_container(c, choices_layout_alignment)
     else:
         bubble.add_choice_container(HFlowContainer.new(), choices_layout_alignment)

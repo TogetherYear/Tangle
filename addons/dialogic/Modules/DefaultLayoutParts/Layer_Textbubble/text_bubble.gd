@@ -115,9 +115,9 @@ func _resize_bubble(content_size: Vector2, popup := false) -> void:
     bubble.pivot_offset = half_size
     bubble_rect = Rect2(position, bubble_size * Vector2(1.1, 1.1))
     bubble.position = - half_size
-    bubble.size = bubble_size
+    bubble.size = bubble_size + Vector2.DOWN * 5
 
-    text.size = content_size + Vector2(0, 2)
+    text.size = content_size
     text.position = - (content_size / 2.0)
 
     if popup:
@@ -164,6 +164,7 @@ func add_choice_container(node: Container, alignment := FlowContainer.ALIGNMENT_
     choice_container = node
     node.set_anchors_preset(LayoutPreset.PRESET_BOTTOM_WIDE)
     node.grow_vertical = Control.GROW_DIRECTION_BEGIN
+    node.position += Vector2(0, 2)
     text.add_child(node)
 
     if node is HFlowContainer:

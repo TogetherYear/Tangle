@@ -1,1 +1,5 @@
 PlayerBubble: Bubble
+- 开始
+	PlayerBubble: 开始
+- 结束
+	PlayerBubble: 结束

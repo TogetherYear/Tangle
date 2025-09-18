@@ -18,6 +18,10 @@ func _process(_delta):
         SoundManager.PlayAudio(SoundManager.AudioType.ChestOpen, -10.0, 0.09, 1, -1.0, SoundManager.AudioGrade.Chest)
     if ImGui.Button("CloseDoor"):
         SoundManager.PlayAudio(SoundManager.AudioType.ChestClose, -10.0, 0.0, 1, -1.0, SoundManager.AudioGrade.Chest)
+    if ImGui.Button("Enter"):
+        LoadingManager.Enter(Vector2(0.5, 0.5))
+    if ImGui.Button("Leave"):
+        LoadingManager.Leave(Vector2(0.5, 0.5))
     ImGui.End()
 
     if !moveAction.value_axis_2d.is_zero_approx():
