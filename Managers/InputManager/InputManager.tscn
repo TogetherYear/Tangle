@@ -1,7 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://ykeimqx0h8hh"]
+[gd_scene load_steps=4 format=3 uid="uid://ykeimqx0h8hh"]
 
 [ext_resource type="Script" uid="uid://d3cd034p1ng63" path="res://Managers/InputManager/InputManager.gd" id="1_i6h64"]
+[ext_resource type="Script" uid="uid://dsa1dnifd6w32" path="res://addons/guide/guide_mapping_context.gd" id="2_dvbeh"]
+[ext_resource type="Resource" uid="uid://l6oy7cbgbsql" path="res://Managers/InputManager/Mappings/PC.tres" id="3_22ifa"]
 
 [node name="InputManager" type="Node"]
 process_mode = 3
 script = ExtResource("1_i6h64")
+inputMappings = Array[ExtResource("2_dvbeh")]([ExtResource("3_22ifa")])

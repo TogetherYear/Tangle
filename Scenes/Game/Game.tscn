@@ -1,7 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://k8sga58ocnwa"]
+[gd_scene load_steps=8 format=3 uid="uid://k8sga58ocnwa"]
 
 [ext_resource type="Script" uid="uid://xpifhsbkwigk" path="res://Scenes/Game/Game.gd" id="1_rdw05"]
+[ext_resource type="Resource" uid="uid://b3lunwxaq2paf" path="res://Managers/InputManager/Actions/Move.tres" id="2_3k6gv"]
 [ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="2_ln2h6"]
+[ext_resource type="Resource" uid="uid://bxyyieo4teb5x" path="res://Managers/InputManager/Actions/Jump.tres" id="3_1q8bt"]
 [ext_resource type="Script" uid="uid://bhexx6mj1xv3q" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd" id="3_y3kpf"]
 [ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="4_3k6gv"]
 
@@ -10,6 +12,8 @@ script = ExtResource("4_3k6gv")
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_rdw05")
+moveAction = ExtResource("2_3k6gv")
+jumpAction = ExtResource("3_1q8bt")
 metadata/_custom_type_script = "uid://xpifhsbkwigk"
 
 [node name="Marker2D" type="Marker2D" parent="."]

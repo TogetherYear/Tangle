@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://dko410sbtd4nw"]
 
 [ext_resource type="Script" uid="uid://d2nri8wurf866" path="res://Managers/SoundManager/SoundManager.gd" id="1_l2nr8"]
-[ext_resource type="AudioStream" uid="uid://cxpkf6qcac61s" path="res://Assets/Sounds/door_open.wav" id="2_c3dlt"]
-[ext_resource type="AudioStream" uid="uid://bbmviakw423en" path="res://Assets/Sounds/door_close.wav" id="3_sawlc"]
+[ext_resource type="AudioStream" uid="uid://bno1vdwf2slce" path="res://Assets/Sounds/ChestOpen.wav" id="2_c3dlt"]
+[ext_resource type="AudioStream" uid="uid://cq2fusl6gvset" path="res://Assets/Sounds/ChestClose.wav" id="3_sawlc"]
 
 [node name="SoundManager" type="Node"]
 process_mode = 3

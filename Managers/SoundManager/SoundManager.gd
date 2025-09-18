@@ -5,14 +5,14 @@ extends Node
 
 ## 音效类型
 enum AudioType {
-    DoorOpen,
-    DoorClose,
+    ChestOpen,
+    ChestClose,
 }
 
 ## 音效等级
 enum AudioGrade {
     None,
-    Door
+    Chest
 }
 
 ## 初始化对象池大小

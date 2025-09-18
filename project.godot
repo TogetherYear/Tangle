@@ -17,7 +17,9 @@ imgui/config="uid://coqe1jjc4aely"
 config/name="Tangle"
 run/main_scene="uid://k8sga58ocnwa"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="uid://bvnfp1rag4wk2"
+boot_splash/fullsize=false
+boot_splash/image="uid://cm4y3ta35yhws"
+config/icon="uid://cm4y3ta35yhws"
 
 [autoload]
 

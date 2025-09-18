@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://bbmviakw423en"
-path="res://.godot/imported/door_close.wav-fbfacbe809d6bf5fe23d98119737b9ce.sample"
+uid="uid://bno1vdwf2slce"
+path="res://.godot/imported/ChestOpen.wav-a4b9cca8926f39ecee5d843bd998cea4.sample"
 
 [deps]
 
-source_file="res://Assets/Sounds/door_close.wav"
-dest_files=["res://.godot/imported/door_close.wav-fbfacbe809d6bf5fe23d98119737b9ce.sample"]
+source_file="res://Assets/Sounds/ChestOpen.wav"
+dest_files=["res://.godot/imported/ChestOpen.wav-a4b9cca8926f39ecee5d843bd998cea4.sample"]
 
 [params]
 
